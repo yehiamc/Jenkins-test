@@ -8,7 +8,7 @@ agent any
         }
         stage('build') {
             steps {
-                bat 'python 1.py'
+                sh 'python 1.py'
             }
         }
     }
